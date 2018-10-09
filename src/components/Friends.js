@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { View, Text, Image } from 'react-native';
-import { Icon } from 'native-base';
+import { View, Image } from 'react-native';
 
 import FriendsHeader from './FriendsHeader'
 import FriendList from './FriendList';
+import SeeAllText from './SeeAllText';
 
 export default class Friends extends Component {
 	render(){
@@ -59,9 +59,7 @@ export default class Friends extends Component {
 							</View>
 						</View>
 					</View>
-					<View style={{ alignItems: 'center', justifyContent: 'center', flex: 1, flexDirection: 'row', paddingTop: 10, paddingBottom: 10 }}>
-						<Text>See All Friends ></Text>
-					</View>
+					<SeeAllText text='Friends' />
 				</View>
 			</View>
 		);

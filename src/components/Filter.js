@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image, View, Text, TouchableOpacity, Button } from 'react-native';
+import { StyleSheet, Image, View, Text, TouchableOpacity, Button } from 'react-native';
 import { Icon } from 'native-base';
 
 export default class Filter extends Component {
@@ -17,7 +17,7 @@ export default class Filter extends Component {
 					<Text style={{ color: '#3578E5' }}>ADD ANSWER</Text>
 				</View>
 				<View style={{ backgroundColor: 'white', padding: 7, flex: 1, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
-					<TouchableOpacity style={{ borderWidth: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center', borderRadius: 5, padding: 5 }}>
+					<TouchableOpacity style={ styles.filterButton }>
 						<Icon type='FontAwesome' name='sliders' style={{ fontSize: 20, color: '#4E5665' }} />
 						<Text> FILTERS</Text>
 					</TouchableOpacity>
@@ -27,3 +27,15 @@ export default class Filter extends Component {
 		);
 	}
 }
+
+const styles = StyleSheet.create({
+	
+	filterButton: {
+		borderWidth: 1,
+		flexDirection: 'row',
+		justifyContent: 'center',
+		alignItems: 'center',
+		borderRadius: 5,
+		padding: 5
+	}
+})

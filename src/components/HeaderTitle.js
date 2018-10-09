@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Header, Body, Left, Right, Icon, Item } from 'native-base';
+import { Header, Body, Left, Right, Icon, Item } from 'native-base';
 import { TextInput } from 'react-native';
 
 export default class HeaderTitle extends Component {
