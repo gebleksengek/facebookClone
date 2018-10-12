@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { View, Text, ScrollView } from 'react-native';
 
 import HeaderTitle from '../components/HeaderTitle';
+import Navigation from '../components/Navigation';
 import TimelineCover from '../components/TimelineCover';
 import TimelineCoverButton from '../components/TimelineCoverButton';
 import ProfileIntroCard from '../components/ProfileIntroCard';
@@ -17,6 +18,7 @@ export default class ProfilePage extends Component {
         return(
             <View style={{ flex: 1 }}>
                 <HeaderTitle />
+                <Navigation />
                 <ScrollView>
                     <TimelineCover />
                     <TimelineCoverButton />

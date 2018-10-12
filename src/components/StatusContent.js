@@ -5,10 +5,10 @@ export default class StatusContent extends Component {
 	render(){
 		return(
 			<View>
-				<Text style={{ color: 'black', marginLeft: 10, margin: 5 }}>Nambah portofolio</Text>
+				<Text style={{ color: 'black', marginLeft: 10, margin: 5 }}>{this.props.text}</Text>
 				<Image
-				 source={require('../images/image1.jpg')}
-				 style={{ width: Dimensions.get('window').width, height: 200 }}
+				 source={{ uri: this.props.image }}
+				 style={{ width: Dimensions.get('window').width, height: Dimensions.get('window').width }}
 				/>
 			</View>
 		);

@@ -13,50 +13,38 @@ export default class Friends extends Component {
 					<FriendsHeader total='2331' />
 					<View style={{ flex: 1 }}>
 						<View style={{ marginBottom: 5, flexDirection: 'row', flex: 1, justifyContent: 'space-between' }}>
-							<View>
-								<Image
-					 			 source={require('../images/image4.jpg')}
-					 			 style={{ width: 120, height: 120}}
-								/>
-								<FriendList name='Dhiki' posts='6' />
-							</View>
-							<View>
-								<Image
-								 source={require('../images/image2.jpg')}
-								 style={{ width: 120, height: 120}}
-								/>
-								<FriendList name='Jonny' posts='2' />
-							</View>
-							<View>
-								<Image
-								 source={require('../images/image3.jpg')}
-								 style={{ width: 120, height: 120}}
-								/>
-								<FriendList name='Occultix' posts='5' />
-							</View>
+							<FriendList
+							 name='Dhiki' 
+							 posts='6'
+							 image='https://cdn.pixabay.com/photo/2012/06/19/10/32/owl-50267_960_720.jpg'
+							/>
+							<FriendList
+							 name='Jonny' 
+							 posts='2'
+							 image='https://cdn.pixabay.com/photo/2018/09/14/22/51/cobblestones-3678292_960_720.jpg'
+							/>
+							<FriendList
+							 name='Occultix' 
+							 posts='5'
+							 image='https://cdn.pixabay.com/photo/2018/09/07/14/11/city-3660779_960_720.jpg'
+							/>
 						</View>
-						<View style={{ flexDirection: 'row', flex: 1, justifyContent: 'space-between' }}>
-							<View>
-								<Image
-								 source={require('../images/image5.jpg')}
-								 style={{ width: 120, height: 120}}
-								/>
-								<FriendList name='Jack' posts='8' />
-							</View>
-							<View>
-								<Image
-								 source={require('../images/image3.jpg')}
-								 style={{ width: 120, height: 120}}
-								/>
-								<FriendList name='Deny' posts='11' />
-							</View>
-							<View>
-								<Image
-								 source={require('../images/image1.jpg')}
-								 style={{ width: 120, height: 120}}
-								/>
-								<FriendList name='July' posts='1' />
-							</View>
+						<View style={{ marginBottom: 5, flexDirection: 'row', flex: 1, justifyContent: 'space-between' }}>
+							<FriendList
+							 name='Jack' 
+							 posts='8'
+							 image='https://cdn.pixabay.com/photo/2018/10/03/21/13/mushroom-3722395_960_720.jpg'
+							/>
+							<FriendList
+							 name='Deny'
+							 posts='11'
+							 image='https://cdn.pixabay.com/photo/2018/10/05/21/04/dahlia-3726844_960_720.jpg'
+							/>
+							<FriendList
+							 name='July' 
+							 posts='1'
+							 image='https://cdn.pixabay.com/photo/2018/09/25/21/54/hedgehog-3703244_960_720.jpg'
+							/>
 						</View>
 					</View>
 					<SeeAllText text='Friends' />

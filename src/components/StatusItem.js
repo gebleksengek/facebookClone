@@ -11,7 +11,7 @@ export default class StatusItem extends Component {
 		return(
 			<View style={{ backgroundColor: 'white', marginTop: 10 }}>
 				<StatusHeader date={this.props.date} />
-				<StatusContent />
+				<StatusContent text={this.props.text} image={this.props.image} />
 				<StatusTotalReact total={this.props.total} />
 				<StatusReactButton />				
 			</View>

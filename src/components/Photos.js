@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Image } from 'react-native';
+import { View, Image, StyleSheet } from 'react-native';
 
 import PhotosHeader from './PhotosHeader';
 import SeeAllText from './SeeAllText';
@@ -8,9 +8,9 @@ export default class Photos extends Component {
 	render(){
 		return(
 			<View style={{ backgroundColor: '#DCDEE3' }}>
-				<View style={{ flex: 1, backgroundColor: 'white', marginBottom: 10}}>
+				<View style={ styles.container }>
 					<PhotosHeader />
-					<View style={{ justifyContent: 'space-between', flex: 1, flexDirection: 'row' }}>
+					<View style={ styles.viewGallery }>
 						<View style={{ flex: 1 }}>
 							<Image
 							 source={require('../images/image1.jpg')}
@@ -42,3 +42,16 @@ export default class Photos extends Component {
 		);
 	}
 }
+
+const styles = StyleSheet.create({
+	container: {
+		flex: 1,
+		backgroundColor: 'white',
+		marginBottom: 10
+	},
+	viewGallery: {
+		justifyContent: 'space-between', 
+		flex: 1, 
+		flexDirection: 'row' 
+	}
+})

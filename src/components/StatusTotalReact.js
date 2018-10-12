@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { View, Text, Image } from 'react-native';
+import { View, Text, Image, StyleSheet } from 'react-native';
 
 export default class StatusTotalReact extends Component {
 	render(){
 		return(
-			<View style={{ marginLeft: 20, marginRight: 20, paddingBottom: 10, paddingTop: 10, flexDirection: 'row' }}>
+			<View style={ styles.container }>
 				<Image
 				 source={require('../images/like.png')}
 				 style={{ width: 20, height: 20}}
@@ -14,3 +14,13 @@ export default class StatusTotalReact extends Component {
 		);
 	}
 }
+
+const styles = StyleSheet.create({
+	container: {
+		marginLeft: 20, 
+		marginRight: 20, 
+		paddingBottom: 10, 
+		paddingTop: 10, 
+		flexDirection: 'row' 
+	}
+})

@@ -1,9 +1,10 @@
 import React from 'react';
+import { Router, Scene } from 'react-native-router-flux';
 
-import ProfilePage from './src/screens/ProfilePage';
+import Route from './src/components/Route';
 
 const App = () => {
-  return <ProfilePage />
+  return <Route />
 }
 
 export default App;

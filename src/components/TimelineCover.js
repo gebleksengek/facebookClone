@@ -7,7 +7,7 @@ import ProfilePhoto from './ProfilePhoto';
 export default class TimelineCover extends Component {
     render(){
         return(
-        	<View>
+        	<View style={{ backgroundColor: 'white' }}>
         		<CoverPhoto />
 		        <ProfilePhoto name='User Name' />
 	        </View>
