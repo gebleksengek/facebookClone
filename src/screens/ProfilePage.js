@@ -17,7 +17,7 @@ export default class ProfilePage extends Component {
     render(){
         return(
             <View style={{ flex: 1 }}>
-                <HeaderTitle />
+                <HeaderTitle placeholder='Search' />
                 <Navigation />
                 <ScrollView>
                     <TimelineCover />

@@ -34,8 +34,16 @@ export default class GalleryProfileIntor extends Component {
 						/>
 					</View>
 					<EditButton text='EDIT FEATURED' />
-					<MoreInfo text='www.facebook.com' iconType='Feather' iconName='globe' />
-					<MoreInfo text='www.com' iconType='Feather' iconName='globe' />
+					<MoreInfo
+					 text='www.facebook.com' 
+					 iconType='Feather' 
+					 iconName='globe'
+					/>
+					<MoreInfo 
+					 text='www.com' 
+					 iconType='Feather' 
+					 iconName='globe'
+					/>
 					<View style={ styles.viewButton }>
 						<Text style={{ fontSize: 15, fontWeight: 'bold' }}>ABOUT</Text>
 						<Text style={{ fontSize: 15, fontWeight: 'bold' }}>PHOTOS</Text>

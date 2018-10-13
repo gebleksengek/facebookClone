@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Image, View, Text, TouchableOpacity, Button } from 'react-native';
+import { StyleSheet, Image, View, Text, TouchableOpacity } from 'react-native';
 import { Icon } from 'native-base';
 
 export default class Filter extends Component {

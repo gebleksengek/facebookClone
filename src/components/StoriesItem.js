@@ -5,7 +5,10 @@ export default class StoriesItem extends Component {
 	render(){
 		return(
 			<View style={{ flex: 1, marginLeft: 3, marginRight: 3 }}>
-				<Image source={{ uri: this.props.storyImage }} style={{ borderRadius: 10, width: 125, height: 170 }}/>
+				<Image
+				 source={{ uri: this.props.storyImage }} 
+				 style={{ borderRadius: 10, width: 125, height: 170 }}
+				/>
 				<View style={{ top: -80 }}>
 					<View style={{ left: 40, position: 'absolute', flex: 1, justifyContent: 'center', alignItems: 'center' }}>
 						<Image

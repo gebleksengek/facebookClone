@@ -8,11 +8,36 @@ export default class Navigation extends Component {
 		return(
 			<View style={ styles.container }>
 				<View style={{ justifyContent: 'space-between', flexDirection: 'row' }}>
-					<Icon onPress={() => { Actions.home() }} type='MaterialCommunityIcons' name='home' style={ styles.icon } />
-					<Icon onPress={() => { Actions.store() }} type='MaterialCommunityIcons' name='store' style={ styles.icon } />
-					<Icon onPress={() => { Actions.profile() }} type='FontAwesome' name='user-circle-o' style={ styles.icon } />
-					<Icon onPress={() => { Actions.notiv() }} type='MaterialCommunityIcons' name='bell-outline' style={ styles.icon } />
-					<Icon onPress={() => { Actions.more() }} type='Entypo' name='menu' style={ styles.icon } />
+					<Icon
+					 onPress={() => { Actions.home() }} 
+					 type='MaterialCommunityIcons' 
+					 name='home' 
+					 style={ styles.icon }
+					/>
+					<Icon
+					 onPress={() => { Actions.store() }} 
+					 type='MaterialCommunityIcons' 
+					 name='store' 
+					 style={ styles.icon } 
+					/>
+					<Icon
+					 onPress={() => { Actions.profile() }} 
+					 type='FontAwesome' 
+					 name='user-circle-o' 
+					 style={ styles.icon } 
+					/>
+					<Icon
+					 onPress={() => { Actions.notiv() }} 
+					 type='MaterialCommunityIcons' 
+					 name='bell-outline' 
+					 style={ styles.icon } 
+					/>
+					<Icon
+					 onPress={() => { Actions.more() }} 
+					 type='Entypo' 
+					 name='menu' 
+					 style={ styles.icon } 
+					/>
 				</View>
 			</View>
 		);

@@ -7,8 +7,12 @@ export default class MoreInfo extends Component {
 		return(
 			<View style={ styles.container }>
 				<TouchableOpacity  style={ styles.touchable }>
-					<Icon type={this.props.iconType} name={this.props.iconName} style={{ color: '#4E5665', fontSize: 18 }}/>
-					<Text> {this.props.text}</Text>
+					<Icon
+					 type={ this.props.iconType } 
+					 name={ this.props.iconName } 
+					 style={{ color: '#4E5665', fontSize: 18 }}
+					/>
+					<Text> { this.props.text }</Text>
 				</TouchableOpacity>
 			</View>
 		);

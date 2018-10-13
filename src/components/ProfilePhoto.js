@@ -13,7 +13,11 @@ export default class ProfilePhoto extends Component {
 			        />
 			        <View style={ styles.viewEdit }>
 						<TouchableOpacity  style={{ backgroundColor: '#DCDEE3', flexDirection: 'row' }}>
-							<Icon style={{ fontSize: 20 }} type='Entypo' name='camera' />
+							<Icon
+							 style={{ fontSize: 20 }} 
+							 type='Entypo' 
+							 name='camera'
+							/>
 							<Text> Edit</Text>
 						</TouchableOpacity>
 					</View>

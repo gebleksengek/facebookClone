@@ -15,7 +15,11 @@ export default class StatusHeader extends Component {
 						<Text style={{ color: 'black', fontSize: 18, fontWeight: 'bold' }}>User Name</Text>
 						<View style={{ flex: 1, flexDirection: 'row' }}>
 							<Text>{this.props.date} </Text>
-							<Icon style={{ color: '#4E5665',fontSize: 18 }} type='FontAwesome' name='globe' />
+							<Icon
+							 style={{ color: '#4E5665',fontSize: 18 }} 
+							 type='FontAwesome' 
+							 name='globe'
+							/>
 						</View>
 					</View>
 				</View>

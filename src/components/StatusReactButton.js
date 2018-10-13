@@ -7,15 +7,27 @@ export default class StatusReactButton extends Component {
 		return(
 			<View style={ styles.container }>
 				<View style={ styles.reactButton }>
-					<Icon style={{ fontSize: 23, color: '#3578E5' }} type='FontAwesome' name='thumbs-up' />
+					<Icon
+					 style={{ fontSize: 23, color: '#3578E5' }} 
+					 type='FontAwesome' 
+					 name='thumbs-up' 
+					/>
 					<Text style={{ fontWeight: 'bold', color: '#3578E5'}} > Like</Text>
 				</View>
 				<View style={ styles.reactButton }>
-					<Icon style={{ fontSize: 23, color: '#4E5665' }} type='Octicons' name='comment' />
+					<Icon
+					 style={{ fontSize: 23, color: '#4E5665' }} 
+					 type='Octicons' 
+					 name='comment'
+					/>
 					<Text style={{ fontWeight: 'bold' }}> Comment</Text>
 				</View>
 				<View style={ styles.reactButton }>
-					<Icon style={{ fontSize: 23, color: '#4E5665' }} type='MaterialCommunityIcons' name='share' />
+					<Icon
+					 style={{ fontSize: 23, color: '#4E5665' }} 
+					 type='MaterialCommunityIcons' 
+					 name='share' 
+					/>
 					<Text style={{ fontWeight: 'bold' }}> Share</Text>
 				</View>
 			</View>

@@ -8,11 +8,15 @@ export default class FriendHeader extends Component {
 			<View style={ styles.container }>
 				<View style={ styles.leftHeader }>
 					<Image
-					 source={require('../images/friends.jpg')}
+					 source={ require('../images/friends.jpg') }
 					 style={{ width: 25, height: 25 }}
 					/>
 					<Text style={ styles.rightHeader }>Friends </Text>
-					<Icon style={{ fontSize: 20,color: '#4E5665' }} type='Entypo' name='dot-single' />
+					<Icon
+					 style={{ fontSize: 20,color: '#4E5665' }} 
+					 type='Entypo' 
+					 name='dot-single'
+					/>
 					<Text> {this.props.total}</Text>
 				</View>
 				<Text style={{ color: '#3578E5' }}>FIND FRIENDS</Text>

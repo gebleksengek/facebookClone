@@ -9,11 +9,17 @@ export default class HeaderTitle extends Component {
     return(
     	<Header style={{ backgroundColor: '#4267B2' }}>
      		<Left style={{ flex: 1 }}>
-     			<Icon name='camera' style={{ color:'white'}} />
+     			<Icon
+           name='camera' 
+           style={{ color:'white'}}
+          />
      		</Left>
       	<Body style={{ flex: 5, left: -15 }} >
      			<Item>
-     				<Icon name='md-search' style={{ color: 'white' }} />
+     				<Icon
+             name='md-search' 
+             style={{ color: 'white' }}
+            />
      				<TextInput
      				 placeholder={ this.props.placeholder }
      				 placeholderTextColor='white'
@@ -22,7 +28,11 @@ export default class HeaderTitle extends Component {
      			</Item>
       	</Body>
         <Right>
-          <Icon type='MaterialCommunityIcons' name='facebook-messenger' style={{ color:'white'}} />
+          <Icon
+           type='MaterialCommunityIcons' 
+           name='facebook-messenger' 
+           style={{ color:'white'}}
+          />
         </Right>
       </Header>
     );

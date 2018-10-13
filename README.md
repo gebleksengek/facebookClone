@@ -1,5 +1,5 @@
 # facebookClone
-Facebook profile page UI with react native.
+Facebook Mobile page UI with react native.
 
 ## Installation
 1. git clone https://github.com/indryanto/facebookClone.git

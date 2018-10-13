@@ -10,15 +10,24 @@ export default class TimelineCoverButton extends Component {
                     <Text style={{ color: '#4267B2'}}>Add a temporary bio</Text>
                     <View style={{ flex: 1, flexDirection: 'row' }} >
                     	<Item style={{ flex: 1, flexDirection: 'column' }}>
-                    		<Icon type='FontAwesome' name='user-o' />
+                    		<Icon
+                             type='FontAwesome' 
+                             name='user-o' 
+                            />
                     		<Text>Edit Profile</Text>
                     	</Item>
                     	<Item style={{ flex: 1, flexDirection: 'column'  }}>
-                    		<Icon type='Entypo' name='list' />
+                    		<Icon
+                             type='Entypo' 
+                             name='list'
+                            />
                     		<Text>Activity Log</Text>
                     	</Item>
                     	<Item style={{ flex: 1, flexDirection: 'column'  }}>
-                    		<Icon type='MaterialIcons' name='more-horiz' />
+                    		<Icon
+                             type='MaterialIcons' 
+                             name='more-horiz' 
+                            />
                     		<Text>More</Text>
                     	</Item>
                     </View>
